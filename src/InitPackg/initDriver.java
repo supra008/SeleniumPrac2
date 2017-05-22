@@ -25,7 +25,7 @@ public class initDriver {
 	
 	
 	jsx.executeScript("window.scrollBy(0,-1500)", "");
-	
+	Thread.sleep(5000);
 	System.out.println("Done");
 	
 	chrmDriver.close();
